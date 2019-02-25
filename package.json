@@ -1,0 +1,39 @@
+{
+  "name": "hello-webrtc",
+  "version": "0.0.1",
+  "description": "A simple js library to use WebRTC.",
+  "main": "build.js",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "level": "^4.0.0",
+    "lodash": "^4.17.10",
+    "query-string": "^6.1.0",
+    "uuid": "^3.3.2",
+    "ws": "^5.2.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "hello-events": "^2.1.1",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "scripts": {
+    "dev:server": "node demo/server.js",
+    "build": "webpack",
+    "dev": "webpack-dev-server --config webpack.devserver.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tangshuang/hello-webrtc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tangshuang/hello-webrtc/issues"
+  },
+  "homepage": "https://github.com/tangshuang/hello-webrtc#readme"
+}
